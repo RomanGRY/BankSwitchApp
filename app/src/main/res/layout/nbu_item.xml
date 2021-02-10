@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="3dp"
+    android:background="@drawable/shape">
+    <TextView
+        android:id="@+id/currency_text_nbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency Name"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/currency_rate_nbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26.90 UAH"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/currency_cc_nbu"/>
+    <TextView
+        android:id="@+id/currency_cc_nbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 USD"
+        android:textSize="20sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

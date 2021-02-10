@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Курси валют</string>
+    <string name="privat_name">Приват Банк</string>
+    <string name="nbu_name">НБУ</string>
+    <string name="currency">Валюта</string>
+    <string name="buy">Покупка</string>
+    <string name="sell">Продаж</string>
+    <string name="back">Повернутись</string>
+</resources>

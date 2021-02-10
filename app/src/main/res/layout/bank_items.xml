@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/currency_name_private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="25dp"/>
+    <TextView
+        android:id="@+id/currency_buy_private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26.90"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_margin="12dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/currency_sell_private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27.98"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
